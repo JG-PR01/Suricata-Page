@@ -33,14 +33,16 @@ header {
 }
 .information {
     white-space: nowrap;
+    margin: 0 auto;
+    padding: 2em 6em;
+    display: inline-block;
+}
+.information-block {
+    margin: 3em 0;
 }
 .card {
-    display: inline-block;
-    margin: 2em;
     white-space: normal;
-}
-.card-body {
-    white-space: normal;
+    margin: 0 3.5em;
 }
 .second-footer {
     background-color: #e83e8c;
