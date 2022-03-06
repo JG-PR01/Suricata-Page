@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="inicial-scale=1, maximum-scale=1">
     <script src="https://kit.fontawesome.com/a725dabd4b.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/CSS/style.css">
@@ -12,134 +12,34 @@
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-lg navbar-dark bg-pink">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-              <img src="assets/img/logo.png" alt="logo-navbar">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Productos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
-              </li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo.png" width="150" height="70" alt="logo-navbar">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
-    <header><h1 class="header-h1">Nuestros Productos</h1></header>
+    <header class="text-center my-5 p-5">
+      <h1 class="display-2 fw-bold text-muted">Nuestros Productos</h1>
+    </header>
 
-   <section class="information">
-        <div class="information-block">
-            <div class="card" style="width: 15rem; display: inline-block;">
-                <img src="assets/img/colaciones.jpg" class="card-img-top" alt="Colaciones">
-                <div class="card-body">
-                    <h5 class="card-title">Colaciones</h5>
-                    <h6 class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</h6>
-                </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">An item</li>
-                        <li class="list-group-item">A second item</li>
-                    </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">Ver más</a>
-                    <a href="#" class="card-link">Comprar</a>
-                </div>
-            </div>
-            <div class="card" style="width: 15rem; display: inline-block;">
-                <img src="assets/img/desayunos.jpg" class="card-img-top" alt="Desayunos">
-                <div class="card-body">
-                <h5 class="card-title">Desayunos</h5>
-                <h6 class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</h6>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">An item</li>
-                    <li class="list-group-item">A second item</li>
-                </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">Ver más</a>
-                    <a href="#" class="card-link">Comprar</a>
-                </div>
-            </div>
-            <div class="card" style="width: 15rem; display: inline-block;">
-                <img src="assets/img/bebidas.jpg" class="card-img-top" alt="Bebidas">
-                <div class="card-body">
-                    <h5 class="card-title">Bebidas</h5>
-                    <h6 class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</h6>
-                </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">An item</li>
-                        <li class="list-group-item">A second item</li>
-                    </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">Ver más</a>
-                    <a href="#" class="card-link">Comprar</a>
-                </div>
-            </div>
-        </div>
-        <div  class="information-block"> 
-            <div class="card" style="width: 15rem; display: inline-block;">
-                <img src="assets/img/verduras.jpg" class="card-img-top" alt="Verduras">
-                <div class="card-body">
-                    <h5 class="card-title">Verduras</h5>
-                    <h6 class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis!</h6>
-                </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">An item</li>
-                        <li class="list-group-item">A second item</li>
-                    </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">Ver más</a>
-                    <a href="#" class="card-link">Comprar</a>
-                </div>
-            </div>
-            <div class="card" style="width: 15rem;  display: inline-block;">
-                <img src="assets/img/dulces.jpg" class="card-img-top" alt="Dulces">
-                <div class="card-body">
-                    <h5 class="card-title">Dulces</h5>
-                    <h6 class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis!</h6>
-                </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">An item</li>
-                        <li class="list-group-item">A second item</li>
-                    </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">Ver más</a>
-                    <a href="#" class="card-link">Comprar</a>
-                </div>
-            </div>
-            <div class="card" style="width: 15rem; display: inline-block;">
-                <img src="assets/img/empanadas.jpg" class="card-img-top" alt="Empanadas">
-                <div class="card-body">
-                    <h5 class="card-title">Empanadas</h5>
-                    <h6 class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis!</h6>
-                </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">An item</li>
-                        <li class="list-group-item">A second item</li>
-                    </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">Ver más</a>
-                    <a href="#" class="card-link">Comprar</a>
-                </div>
-            </div>
-        </div>
-   </section>
-
-    <footer>
-        <p>Ahora aceptamos</p>
-
-    </footer>
-    <footer class="second-footer"><img src="assets/img/logo-footer.png" alt="logo-footer"></footer>
 
 
 
